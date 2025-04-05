@@ -1353,10 +1353,10 @@ textarea {
   padding: 10px 28px;
   color: var(--rr-heading-primary);
   background-color: transparent;
-  border: 1px solid #0273ba;
+  border: 1px solid rgba(0, 29, 8, 0.1);
 }
 .rr-btn.btn-transparent::before {
-  background-color: #0273ba;
+  background-color: var(--rr-theme-primary);
 }
 .rr-btn.btn-transparent.btn-border-2 {
   padding: 18px 30px;
