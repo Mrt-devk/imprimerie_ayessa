@@ -255,14 +255,16 @@ h6 {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+.propos{
+  text-transform: lowercase;
+}
 :root {
   /**
   @font family declaration
   */
-  --rr-ff-body: 'Rubik', sans-serif;
-  --rr-ff-heading: 'Poppins', sans-serif;
-  --rr-ff-subtitle: 'Sofia';
+  --rr-ff-body: 'Copperplate Gothic Light Regular';
+  --rr-ff-heading: 'Copperplate Gothic Light Regular';
+  --rr-ff-subtitle: 'Copperplate Gothic Light Regular';
   --rr-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
@@ -1329,7 +1331,7 @@ textarea {
 }
 .rr-btn:hover {
   color: var(--rr-common-white);
-  background: var(--rr-heading-primary);
+  background: ##0273ba;
 }
 .rr-btn:hover::before {
   -webkit-transform: translate(0, 0);
@@ -7587,7 +7589,6 @@ body .ui-tooltip {
   font-family: var(--rr-ff-body);
   font-weight: var(--rr-fw-regular);
   padding: 30px 0;
-  text-transform: capitalize;
   line-height: normal;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -9337,7 +9338,16 @@ body .ui-tooltip {
   opacity: 0.9;
   color: var(--rr-common-black);
 }
+.footer__logo{
+  display: flex;
+  align-items: center;
+}
+.footer__logo h4{
+  margin-top: 30px;
+}
 .footer__logo img {
+  width: 77px; 
+  height: 90px;
   max-width: 188px;
 }
 .footer__content p {
