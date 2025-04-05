@@ -162,7 +162,7 @@
 }
 
 .footer__bottom-home-1-bg {
-  background-color: #001D08;
+  background-color: #0273ba;
 }
 
 .latest-blog2-bg {
@@ -1331,7 +1331,7 @@ textarea {
 }
 .rr-btn:hover {
   color: var(--rr-common-white);
-  background: ##0273ba;
+  background: #0273ba;
 }
 .rr-btn:hover::before {
   -webkit-transform: translate(0, 0);
@@ -1353,10 +1353,10 @@ textarea {
   padding: 10px 28px;
   color: var(--rr-heading-primary);
   background-color: transparent;
-  border: 1px solid rgba(0, 29, 8, 0.1);
+  border: 1px solid #0273ba;
 }
 .rr-btn.btn-transparent::before {
-  background-color: var(--rr-theme-primary);
+  background-color: #0273ba;
 }
 .rr-btn.btn-transparent.btn-border-2 {
   padding: 18px 30px;
@@ -2323,7 +2323,7 @@ textarea {
   height: 100%;
   position: absolute;
   top: 0;
-  border: 1px solid var(--rr-theme-primary);
+  border: 1px solid #0273ba;
   left: 0;
   border-radius: 500px;
   -webkit-transform: translate(-100%, 0) rotate(50deg);
@@ -2332,7 +2332,7 @@ textarea {
           transform-origin: top left;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  background-color: var(--rr-heading-primary);
+  background-color: #0273ba;
   z-index: -1;
   content: "";
 }
@@ -2367,7 +2367,7 @@ textarea {
   transition: all 400ms linear;
 }
 .backtotop-wrap:hover::before {
-  border-color: var(--rr-heading-primary);
+  border-color: #0273ba;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
@@ -8118,7 +8118,6 @@ body .ui-tooltip {
   margin: 0;
   text-align: left;
   text-decoration: none;
-  text-transform: capitalize;
   width: 100%;
   padding: 10px 0;
   color: var(--rr-common-white);
