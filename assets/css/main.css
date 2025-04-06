@@ -4998,7 +4998,11 @@ body .ui-tooltip {
     margin-left: 0 !important;
   }
 }
-
+.logo-3 img{
+  width: 50px; 
+  height: 60px; 
+  margin-bottom: 8px;
+}
 /*----------------------------------------*/
 /*  3.4 header-common
 /*----------------------------------------*/
@@ -7066,6 +7070,8 @@ body .ui-tooltip {
   color: var(--rr-theme-primary);
 }
 
+
+
 .banner__space-3 {
   padding-top: 325px;
   padding-bottom: 190px;
@@ -7096,8 +7102,8 @@ body .ui-tooltip {
 }
 .banner__space-3 .bg-shape {
   position: absolute;
-  top: 279px;
-  left: 378px;
+  top: 300px;
+  left: 400px;
   z-index: -1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7137,7 +7143,8 @@ body .ui-tooltip {
   }
 }
 .banner__space-3 .bg-shape img {
-  width: auto;
+  width: 80%;
+  height: 80%;
 }
 
 .banner__area .bg-color {
@@ -15602,12 +15609,15 @@ html .ui-button.ui-state-disabled:active {
   line-height: var(--rr-lh-h6);
   font-style: normal;
 }
+.latest-about2__all-shape{
+  display: flex;
+}
 
 /*latest-about2 area start*/
 .latest-about2__all-shape-bg-shape {
   position: absolute;
-  top: -90px;
-  right: -150px;
+  left: 400px;
+  top:20px
 }
 .latest-about2__all-shape-bg-shape img {
   width: 100%;
@@ -15620,12 +15630,12 @@ html .ui-button.ui-state-disabled:active {
 }
 .latest-about2__all-shape-circle-shape {
   position: absolute;
-  top: 150px;
-  right: -200px;
+  left: 1000px;
+  top: ;
 }
 .latest-about2__all-shape-circle-shape img {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .latest-about2__all-shape-circle-shape {
