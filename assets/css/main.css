@@ -5056,7 +5056,6 @@ body .ui-tooltip {
 }
 .header__area .container {
   max-width: 1200px;
-  padding: 0 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header__area .container {
@@ -7102,8 +7101,8 @@ body .ui-tooltip {
 }
 .banner__space-3 .bg-shape {
   position: absolute;
-  top: 300px;
-  left: 400px;
+  top: 270px;
+  left: 450px;
   z-index: -1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7143,8 +7142,8 @@ body .ui-tooltip {
   }
 }
 .banner__space-3 .bg-shape img {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 
 .banner__area .bg-color {
