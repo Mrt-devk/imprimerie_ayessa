@@ -1956,7 +1956,6 @@ textarea {
   margin-right: 15px;
 }
 .section__title {
-  text-transform: capitalize;
   color: var(--rr-heading-primary);
 }
 
