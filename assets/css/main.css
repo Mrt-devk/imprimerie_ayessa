@@ -113,8 +113,14 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&amp;family=Rubik:wght@300;400;500;600;700;800&amp;family=Sofia&amp;display=swap");
 .banner-home-bg {
-  background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
-  background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);
+  /*background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
+  background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);*/
+   /* ou une autre hauteur selon ta bannière */
+  background-color: rgba(229, 28, 66, 0.2); /* rouge pâle en fond */
+  background-image: url("../imgs/banner-1/Banne-all-pages.png");
+  background-size: contain; /* IMPORTANT : on garde TOUTE l’image */
+  background-position: center center; /* centre horizontalement et verticalement */
+  background-repeat: no-repeat; /* pas de répétition */
 }
 
 .latest-feature-bg {
