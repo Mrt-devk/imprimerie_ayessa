@@ -519,7 +519,7 @@ button:focus {
 }
 
 .capitalize {
-  text-transform: capitalize;
+  
 }
 
 hr:not([size]) {
@@ -1292,7 +1292,7 @@ textarea {
   font-size: 16px;
   font-style: normal;
   line-height: 30px;
-  text-transform: capitalize;
+  
   font-weight: var(--rr-fw-sbold);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -8627,7 +8627,7 @@ body .ui-tooltip {
   font-size: 18px;
   line-height: 28px;
   font-weight: var(--rr-fw-medium);
-  text-transform: capitalize;
+  
 }
 .blog__details-content ul:not(.blog__details-meta) li:before {
   left: 0;
@@ -8654,7 +8654,7 @@ body .ui-tooltip {
       flex-wrap: wrap;
 }
 .blog__details-content .blog__details-meta li {
-  text-transform: capitalize;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9320,7 +9320,7 @@ body .ui-tooltip {
   line-height: var(--rr-lh-h4);
   position: relative;
   z-index: 10;
-  text-transform: capitalize;
+  
   color: var(--rr-common-black);
   font-family: var(--rr-ff-heading);
   margin-top: 18px;
@@ -17824,7 +17824,7 @@ html .ui-button.ui-state-disabled:active {
   color: var(--rr-heading-primary);
   font-family: var(--rr-ff-heading);
   font-weight: var(--rr-fw-bold);
-  font-size: var(--rr-fs-h2);
+  font-size: 42px;
   line-height: var(--rr-lh-h2);
   font-style: normal;
   margin-bottom: 11px;

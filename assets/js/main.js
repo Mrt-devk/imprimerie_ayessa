@@ -617,7 +617,7 @@
 
     $('.lan-select select, .nice-select-select select').niceSelect();
 
-    $('#getting-started').countdown('2025/01/01', function(event) {
+    $('#getting-started').countdown('2025/04/12', function(event) {
         $(this).html(event.strftime(' <div><span>%D</span></div>  <div><span>%H</span></div> <div><span>%M</span></div> <div><span>%S</span></div>'));
       });
 
