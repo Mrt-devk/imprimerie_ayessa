@@ -116,9 +116,9 @@
   /*background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
   background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);*/
    /* ou une autre hauteur selon ta bannière */
-  background-color: rgba(229, 28, 66, 0.1); /* rouge pâle en fond */
+   /* rouge pâle en fond */
   background-image: url("../imgs/banner-1/Banne-all-pages.png");
-  background-size: cover; /* IMPORTANT : on garde TOUTE l’image */
+  background-size: contain; /* IMPORTANT : on garde TOUTE l’image */
   background-position: center center; /* centre horizontalement et verticalement */
   background-repeat: no-repeat; /* pas de répétition */
 }
@@ -17832,13 +17832,13 @@ html .ui-button.ui-state-disabled:active {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 50vh;
 }
 .cta-3__content {
   max-width: 557px;
 }
 .cta-3__content-subtitle {
-  color: var(--rr-theme-primary);
+  color: white;
   font-family: var(--rr-ff-heading);
   font-weight: var(--rr-fw-regular);
   line-height: var(--rr-lh-h6);
@@ -17847,7 +17847,7 @@ html .ui-button.ui-state-disabled:active {
   margin-bottom: 12px;
 }
 .cta-3__content-title {
-  color: var(--rr-heading-primary);
+  color: white;
   font-family: var(--rr-ff-heading);
   font-weight: var(--rr-fw-bold);
   font-size: 42px;
@@ -17886,7 +17886,7 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 .cta-3__content-dollar {
-  color: var(--rr-heading-primary);
+  color: white;
   font-family: var(--rr-text-body);
   font-weight: var(--rr-fw-regular);
   line-height: var(--rr-lh-h6);
