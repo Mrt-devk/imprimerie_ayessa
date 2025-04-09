@@ -117,18 +117,9 @@
   background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);*/
    /* ou une autre hauteur selon ta bannière */
    /* rouge pâle en fond */
-  background-image: url("../imgs/banner-1/Banne-all-pages.png");
-  background-size: contain; /* IMPORTANT : on garde TOUTE l’image */
-  background-position: center center; /* centre horizontalement et verticalement */
-  background-repeat: no-repeat; /* pas de répétition */
-}
-
-.banner-home-bg-service{
-  /*background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
-  background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);*/
-   /* ou une autre hauteur selon ta bannière */
-  /* rouge pâle en fond */
-  background-image: url("../imgs/banner-1/bannier_services.png");
+  height: 65vh;
+  background: #000;
+  background-image: url("../imgs/banner-1/all_pages.png");
   background-size: cover; /* IMPORTANT : on garde TOUTE l’image */
   background-position: center center; /* centre horizontalement et verticalement */
   background-repeat: no-repeat; /* pas de répétition */
@@ -2025,7 +2016,7 @@ textarea {
   font-size: 68px;
   line-height: 84px;
   font-style: normal;
-  margin-bottom: 14px;
+  margin-top: 50px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .breadcrumb__title {
@@ -10257,10 +10248,9 @@ body .ui-tooltip {
       -ms-flex-align: center;
           align-items: center;
 }
-.contact-us__area .contact-us__widget .contact-us__widget-list .contact-us__widget-list-item .icon {
+.contact-us__area .contact-us__widget .contact-us__widget-list .contact-us__widget-list-item .icon img{
   width: 60px;
   height: 60px;
-  background: #ffece5;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10272,6 +10262,7 @@ body .ui-tooltip {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .contact-us__area .contact-us__widget .contact-us__widget-list .contact-us__widget-list-item .large-hight {
   min-width: 60px;
   height: 60px;
@@ -14563,7 +14554,7 @@ html .ui-button.ui-state-disabled:active {
   height: 100%;
   content: "";
   border-radius: 10px;
-  background: rgba(255, 61, 0, 0.8);
+  background: rgba(42, 185, 236, 0.6);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.3s;
@@ -14823,8 +14814,8 @@ html .ui-button.ui-state-disabled:active {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 61, 0, 0.1)), to(#FF3D00));
-  background: linear-gradient(180deg, rgba(255, 61, 0, 0.1) 0%, #FF3D00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 61, 0, 0.1)), to(#2ab9ec));
+  background: linear-gradient(180deg, rgba(255, 61, 0, 0.1) 0%, #2ab9ec 100%);
   z-index: 1;
   opacity: 0.9;
 }
